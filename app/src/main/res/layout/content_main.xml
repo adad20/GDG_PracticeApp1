@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/supense"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20dp"
+                android:layout_marginTop="100dp"/>
+
+
+            <HorizontalScrollView
+                android:layout_marginTop="130dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fillViewport="true"
+                android:scrollbars="horizontal|vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage0"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shutter Island"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zodiac"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Seven"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Silence Of the Lambs"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prisoners"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage6"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kahaani"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage7"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Inception"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage8"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Drishyam"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage9"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wazir"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage10"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/s10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Sixth Sense"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top 10 Marvel Movies"
+                android:layout_marginTop="320dp"
+                android:textSize="20dp"
+                android:textColor="@color/cardview_light_background"/>
+
+            <HorizontalScrollView
+                android:layout_marginTop="350dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fillViewport="true"
+                android:scrollbars="horizontal|vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage0"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Guardians Of the Galaxy"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Infinity War"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Avengers Endgame"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Avengers"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Civil War"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage6"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thor Ragnarok"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage7"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Winter Soldier"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage8"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Spiderman Homecoming"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage9"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Black Panther"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage10"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/m10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dr Strange"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Top 10 Motivational Movies"
+                android:layout_marginTop="530dp"
+                android:textSize="20dp"
+                android:textColor="@color/cardview_light_background"/>
+
+            <HorizontalScrollView
+                android:layout_marginTop="560dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fillViewport="true"
+                android:scrollbars="horizontal|vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage0"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Persuit of Happyness"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Forrest Gump"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Shawshank Redemption"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Good Will Hunting"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Blind Side"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage6"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rocky"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage7"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/pp7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 Idiots"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage8"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The Social Network"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage9"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Taare Zameen Par"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/viewImage10"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:padding="15dp"
+                            android:src="@drawable/p10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Life Of Pi"
+                            android:layout_gravity="center"
+                            android:textColor="@color/cardview_light_background"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

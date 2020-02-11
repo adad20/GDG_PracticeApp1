@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieHub</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Movies Hub</string>
+    <string name="supense">Top 10 Suspense Movies</string>
+</resources>
